@@ -24,7 +24,7 @@ const Navbar = () => {
   return (
     
     <Nav style={{whiteSpace:'nowrap'}}>
-      <span style={{color:'darkgreen' ,padding:'0px 0px'}}>Cash</span> 
+      <span style={{color:'darkgreen' ,padding:'0px 0px'}}>Expense</span> 
      <span style={{color:'whitesmoke'}}> Clarity</span>
      {/* <div style={{color:'darkgreen'}}>CashClarity</div> */}
 
