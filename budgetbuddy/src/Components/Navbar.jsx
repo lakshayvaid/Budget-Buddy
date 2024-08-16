@@ -10,12 +10,12 @@ text-align:center;
 flex-direction:row;
 align-items:center;
 justify-content:center;
-height:80px;
-font-size:70px;
+height:100px;
+font-size:65px;
 font-weight:bolder;
 padding:10px 0px;
 
-background-color:rgba(0, 0, 0, 0.);
+background-color:black;
 margin-bottom:10px;
 `;
 const Navbar = () => {
@@ -24,9 +24,9 @@ const Navbar = () => {
   return (
     
     <Nav style={{whiteSpace:'nowrap'}}>
-      <span style={{color:'#6a0dad'}}>Budget</span> 
-     <span style={{color:'#00bfff'}}> Buddy</span>
-     {/* <div style={{color:'black'}}>BudgetBuddy</div> */}
+      <span style={{color:'darkgreen' ,padding:'0px 0px'}}>Cash</span> 
+     <span style={{color:'whitesmoke'}}> Clarity</span>
+     {/* <div style={{color:'darkgreen'}}>CashClarity</div> */}
 
       </Nav>
     
